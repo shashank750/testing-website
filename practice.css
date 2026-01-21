@@ -1,0 +1,38 @@
+
+* {
+    padding : 0px;
+    margin : 0px;
+}
+
+.maina {
+    height : 20vh;
+    width : 100vw;
+    background-color : red;
+    color : white;
+}
+.maina h1{
+    text-align : center;
+}
+
+.image img{
+    height : 50vh;
+    width : 225vh;
+}
+
+@media only screen and
+(min-width : 320px) and 
+(max-width : 600px) {
+    .maina {
+        height : 50px;
+        width : 100%;
+        background-color : pink;
+    }
+    .maina h1 {
+        font-size : 20px;
+        text-align : center;
+    }
+    .image img{
+        height :50vh;
+        width : 100%;
+    }
+}
